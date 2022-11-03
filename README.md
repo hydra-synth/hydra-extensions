@@ -30,6 +30,10 @@ await loadScript("https://www.somewebsite.com/url/to/hydra-script.js")
 | hydra-glsl          | Code glsl on the fly inside Hydra code                              | https://cdn.jsdelivr.net/gh/ritchse/hydra-extensions/hydra-glsl.js                       |
 | hydra-pixels        | Read pixels from each hydra output                                  | https://cdn.jsdelivr.net/gh/ritchse/hydra-extensions/hydra-pixels.js                     |
 | hydra-abbreviations | Abbreviations for all the functions                                 | https://cdn.jsdelivr.net/gh/ritchse/hydra-extensions/hydra-abbreviations.js              |
+| hydra-canvas        | Useful functions to change canvas properties                        | https://cdn.jsdelivr.net/gh/ritchse/hydra-extensions/hydra-canvas.js                     |
+| hydra-outputs       | Adds useful functions to change each output's frame buffer settings | https://cdn.jsdelivr.net/gh/ritchse/hydra-extensions/hydra-outputs.js                    |
+| hydra-nowrap        | Disables all wrapping in Hydra                                      | https://cdn.jsdelivr.net/gh/ritchse/hydra-extensions/hydra-nowrap.js                     |
+| hydra-fractals      | Useful functions for fractals (mirrors, etc)                        | https://cdn.jsdelivr.net/gh/ritchse/hydra-extensions/hydra-fractals.js                   |
 | hydra-superdirt     | A Hydra extension for handling SuperDirt RMS events                 | https://cdn.jsdelivr.net/gh/munshkr/hydra-superdirt/index.js                             |
 | lib-pattern         | Additional shaders inspired by op-art patterns                      | https://cdn.statically.io/gl/metagrowing/extra-shaders-for-hydra/main/lib/lib-pattern.js |
 | lib-color           | Additional filters for mixing or manipulating colors                | https://cdn.statically.io/gl/metagrowing/extra-shaders-for-hydra/main/lib/lib-color.js   |
