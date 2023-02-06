@@ -8,7 +8,13 @@ List of community extensions and other libraries to use in Hydra
 In the Hydra editor, you can load any external scripts, libraries or hydra-synth extensions using the following syntax at the top of your sketch:
 
 ```javascript
-await loadScript("https://www.somewebsite.com/url/to/hydra-script.js")
+await loadScript("https://cdn.statically.io/gl/metagrowing/extra-shaders-for-hydra/main/lib/lib-noise.js")
+
+warp(1)
+	.diff(gradient(1).b().color(.25,-.25,.4))
+	.modulateScale(whitenoise(1,1),.05)
+	.blend(o0)
+  	.out()
 ```
 
 ## List
