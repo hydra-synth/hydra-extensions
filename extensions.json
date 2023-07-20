@@ -34,6 +34,18 @@
         ]
     },
     {
+        "name": "Screen space operations",
+        "description": "Dithering, edge detection and pixel sort running in screen space.",
+        "documentation": "https://gitlab.com/metagrowing/extra-shaders-for-hydra/-/blob/main/gallery/screenspace/README.md",
+        "author": "Thomas Jourdan",
+        "thumbnail": "kandid-lib-screen.png",
+        "load": "await loadScript(\\\"https://cdn.statically.io/gl/metagrowing/extra-shaders-for-hydra/main/lib/lib-screen.js\\\")",
+        "examples": [
+            "https://hydra.ojack.xyz/?code=JTJGJTJGJTIwbGljZW5zZWQlMjB3aXRoJTIwQ0MlMjBCWS1OQy1TQSUyMDQuMCUyMGh0dHBzJTNBJTJGJTJGY3JlYXRpdmVjb21tb25zLm9yZyUyRmxpY2Vuc2VzJTJGYnktbmMtc2ElMkY0LjAlMkYlMEFhd2FpdCUyMGxvYWRTY3JpcHQoJTIyaHR0cHMlM0ElMkYlMkZjZG4uc3RhdGljYWxseS5pbyUyRmdsJTJGbWV0YWdyb3dpbmclMkZleHRyYS1zaGFkZXJzLWZvci1oeWRyYSUyRm1haW4lMkZsaWIlMkZsaWItc2NyZWVuLmpzJTIyKSUwQSUwQXdpbmRvdy5mcmFtZSUyMCUzRCUyMDAlMEFyZW5kZXIobzMpJTBBJTBBb3NjKDMwJTJDJTIwMC4xJTJDJTIwMikua2FsZWlkKDMpLm91dChvMiklMEFzcmMobzMpJTBBJTIwJTIwJTIwJTIwLnB4c29ydCgwLjElMkMlMjAoKSUyMCUzRCUzRSUyMCU3QnJldHVybiUyMGZyYW1lJTJCJTJCJTNCJTdEKSUwQSUyMCUyMCUyMCUyMC5ibGVuZChvMiUyQyUyMCgpJTIwJTNEJTNFJTIwJTdCcmV0dXJuJTIwKChmcmFtZSUyMCUyNSUyMDMwMCklMjAlM0QlM0QlMjAwKSUyMCUzRiUyMDElMjAlM0ElMjAwLjAxJTNCJTdEKSUwQSUyMCUyMCUyMCUyMC5jb250cmFzdCgxLjAxKSUwQSUyMCUyMCUyMCUyMC5vdXQobzMpJTBB",
+            "https://hydra.ojack.xyz/?code=JTJGJTJGJTIwbGljZW5zZWQlMjB3aXRoJTIwQ0MlMjBCWS1OQy1TQSUyMDQuMCUyMGh0dHBzJTNBJTJGJTJGY3JlYXRpdmVjb21tb25zLm9yZyUyRmxpY2Vuc2VzJTJGYnktbmMtc2ElMkY0LjAlMkYlMEFhd2FpdCUyMGxvYWRTY3JpcHQoJTIyaHR0cHMlM0ElMkYlMkZjZG4uc3RhdGljYWxseS5pbyUyRmdsJTJGbWV0YWdyb3dpbmclMkZleHRyYS1zaGFkZXJzLWZvci1oeWRyYSUyRm1haW4lMkZsaWIlMkZsaWItY29uZC5qcyUyMiklMEFhd2FpdCUyMGxvYWRTY3JpcHQoJTIyaHR0cHMlM0ElMkYlMkZjZG4uc3RhdGljYWxseS5pbyUyRmdsJTJGbWV0YWdyb3dpbmclMkZleHRyYS1zaGFkZXJzLWZvci1oeWRyYSUyRm1haW4lMkZsaWIlMkZsaWItc2NyZWVuLmpzJTIyKSUwQSUwQXMwLmluaXRDYW0oKSUzQiUwQXNyYyhzMCkuZWRnZSgpLm91dChvMSklMEFzcmMobzEpLmRpbGF0ZSgpLmNvbG9yKDIuNSUyQyUyMDIuNSUyQyUyMDIuNSkub3V0KG8yKSUwQXNyYyhvMikuc3BsaXR2aWV3KHMwKS5vdXQobzMpJTBBcmVuZGVyKG8zKSUwQQ%3D%3D"
+        ]
+    },
+    {
         "name": "if then else",
         "description": "Switch between different branches of your animation.",
         "documentation": "https://gitlab.com/metagrowing/extra-shaders-for-hydra/-/tree/main/gallery/cond",
