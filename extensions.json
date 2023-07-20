@@ -1,13 +1,47 @@
 [
     {
+        "name": "Color manipulation",
+        "description":  "Filters to manipulate or generate colors.",
+        "documentation": "https://gitlab.com/metagrowing/extra-shaders-for-hydra/-/blob/main/gallery/color/README.md",
+        "author": "Thomas Jourdan",
+        "thumbnail": "kandid-lib-color.png",
+        "load": "await loadScript(\\\"https://cdn.statically.io/gl/metagrowing/extra-shaders-for-hydra/main/lib/lib-color.js\\\")",
+        "examples": [
+            "https://hydra.ojack.xyz/?code=https://hydra.ojack.xyz/?code=JTJGJTJGJTIwbGljZW5zZWQlMjB3aXRoJTIwQ0MlMjBCWS1OQy1TQSUyMDQuMCUyMGh0dHBzJTNBJTJGJTJGY3JlYXRpdmVjb21tb25zLm9yZyUyRmxpY2Vuc2VzJTJGYnktbmMtc2ElMkY0LjAlMkYlMEFhd2FpdCUyMGxvYWRTY3JpcHQoJTIyaHR0cHMlM0ElMkYlMkZjZG4uc3RhdGljYWxseS5pbyUyRmdsJTJGbWV0YWdyb3dpbmclMkZleHRyYS1zaGFkZXJzLWZvci1oeWRyYSUyRm1haW4lMkZsaWIlMkZsaWItY29sb3IuanMlMjIpJTBBJTBBb3NjKDMlMkMlMjAwLjUlMkMlMjAxKSUwQSUwOS5yb3RhdGUoKCklMjAlM0QlM0UlMjAtMC4xNyUyMColMjB0aW1lKSUwQSUwOS5jb2xyZWZsZWN0KG9zYygxMiUyQyUyMDAuMjMlMkMlMjAxKSUwQSUwOSUwOS5yb3RhdGUoKCklMjAlM0QlM0UlMjAwLjElMjAqJTIwdGltZSklMkMlMjAwLjMpJTBBJTA5Lm91dChvMCklMEFyZW5kZXIobzApJTBB",
+            "https://hydra.ojack.xyz/?code=JTJGJTJGJTIwbGljZW5zZWQlMjB3aXRoJTIwQ0MlMjBCWS1OQy1TQSUyMDQuMCUyMGh0dHBzJTNBJTJGJTJGY3JlYXRpdmVjb21tb25zLm9yZyUyRmxpY2Vuc2VzJTJGYnktbmMtc2ElMkY0LjAlMkYlMEFhd2FpdCUyMGxvYWRTY3JpcHQoJTIyaHR0cHMlM0ElMkYlMkZjZG4uc3RhdGljYWxseS5pbyUyRmdsJTJGbWV0YWdyb3dpbmclMkZleHRyYS1zaGFkZXJzLWZvci1oeWRyYSUyRm1haW4lMkZsaWIlMkZsaWItY29sb3IuanMlMjIpJTBBJTBBczAuaW5pdENhbSgpJTBBc3JjKHMwKS5tb25vdG9uZSgzJTJDJTIwKCklMjAlM0QlM0UlMjAwLjEqdGltZSUyQyUyMDAuOCkub3V0KG8wKSUwQXNyYyhzMCkubGV2ZWxzKDMlMkMlMjAwLjUpLm91dChvMSklMEFzcmMoczApLmdyYXJvc2UoMC41KS5vdXQobzIpJTBBc3JjKHMwKS5ncmF3YXZlKDAuMykub3V0KG8zKSUwQXJlbmRlcigpJTBB"
+        ]
+    },
+    {
+        "name": "Noise generators",
+        "description": "Additional noise and turbulence generators",
+        "documentation": "https://gitlab.com/metagrowing/extra-shaders-for-hydra/-/blob/main/gallery/noise/README.md",
+        "author": "Thomas Jourdan",
+        "thumbnail": "kandid-lib-noise.png",
+        "load": "await loadScript(\\\"https://cdn.statically.io/gl/metagrowing/extra-shaders-for-hydra/main/lib/lib-noise.js\\\")",
+        "examples": [
+            "https://hydra.ojack.xyz/?code=https://hydra.ojack.xyz/?code=JTJGJTJGJTIwbGljZW5zZWQlMjB3aXRoJTIwQ0MlMjBCWS1OQy1TQSUyMDQuMCUyMGh0dHBzJTNBJTJGJTJGY3JlYXRpdmVjb21tb25zLm9yZyUyRmxpY2Vuc2VzJTJGYnktbmMtc2ElMkY0LjAlMkYlMEFhd2FpdCUyMGxvYWRTY3JpcHQoJTIyaHR0cHMlM0ElMkYlMkZjZG4uc3RhdGljYWxseS5pbyUyRmdsJTJGbWV0YWdyb3dpbmclMkZleHRyYS1zaGFkZXJzLWZvci1oeWRyYSUyRm1haW4lMkZsaWIlMkZsaWItbm9pc2UuanMlMjIpJTBBJTBBdHVyYigzJTJDJTIwMCUyQyUyMCUyMCgpJTIwJTNEJTNFJTIwNiUyMColMjAoKDAuNSUyMColMjB0aW1lKSUyMCUyNSUyMDEuMCkpLm91dChvMCklM0IlMEF1dHVyYigzJTJDJTIwMCUyQyUyMCgpJTIwJTNEJTNFJTIwNiUyMColMjAoKDAuNSUyMColMjB0aW1lKSUyMCUyNSUyMDEuMCkpLm91dChvMSklM0IlMEF3YXJwKDMlMkMlMjAwJTJDJTIwJTIwKCklMjAlM0QlM0UlMjA2JTIwKiUyMCgoMC41JTIwKiUyMHRpbWUpJTIwJTI1JTIwMS4wKSUyQyUyMCgpJTIwJTNEJTNFJTIwNiUyMColMjAoKDAuNSUyMColMjB0aW1lKSUyMCUyNSUyMDEuMCkpLm91dChvMiklM0IlMEFjd2FycCgzJTJDJTIwMCUyQyUyMCgpJTIwJTNEJTNFJTIwNiUyMColMjAoKDAuNSUyMColMjB0aW1lKSUyMCUyNSUyMDEuMCklMkMlMjAoKSUyMCUzRCUzRSUyMDYlMjAqJTIwKCgwLjUlMjAqJTIwdGltZSklMjAlMjUlMjAxLjApKS5vdXQobzMpJTNCJTBBcmVuZGVyKCklMEE%3D"
+        ]
+    },
+    {
         "name": "Op-art patterns",
-        "description": "Additional fragment shaders inspired by op-art patterns",
+        "description": "Additional fragment shaders inspired by op-art patterns.",
         "documentation": "https://gitlab.com/metagrowing/extra-shaders-for-hydra#op-art-patterns",
         "author": "Thomas Jourdan",
-        "thumbnail": "op-art.png",
+        "thumbnail": "kandid-lib-pattern.png",
         "load": "await loadScript(\\\"https://cdn.statically.io/gl/metagrowing/extra-shaders-for-hydra/main/lib/lib-pattern.js\\\")",
         "examples": [
             "https://hydra.ojack.xyz/?code=JTJGJTJGJTIwbGljZW5zZWQlMjB3aXRoJTIwQ0MlMjBCWS1OQy1TQSUyMDQuMCUyMGh0dHBzJTNBJTJGJTJGY3JlYXRpdmVjb21tb25zLm9yZyUyRmxpY2Vuc2VzJTJGYnktbmMtc2ElMkY0LjAlMkYlMEFhd2FpdCUyMGxvYWRTY3JpcHQoJTIyaHR0cHMlM0ElMkYlMkZjZG4uc3RhdGljYWxseS5pbyUyRmdsJTJGbWV0YWdyb3dpbmclMkZleHRyYS1zaGFkZXJzLWZvci1oeWRyYSUyRm1haW4lMkZsaWIlMkZsaWItcGF0dGVybi5qcyUyMiklMEElMEFhJTIwJTNEJTIwKCklMjAlM0QlM0UlMjAwLjEzNyUyMColMjB0aW1lJTNCJTBBc3BpcmFsKDIuMCUyQyUyMDUuMCUyQyUyMDAuMykucm90YXRlKCgpJTIwJTNEJTNFJTIwLTIuMCUyMColMjBhKCkpLm91dChvMCklMEFzcGlyYWwoMi4wJTJDJTIwNS4wJTJDJTIwMC4zKS5yb3RhdGUoYSkuZGlmZihjb25jZW50cmljKDEwMC4wJTJDMC4yNSUyQzAuMjUpKS5vdXQobzEpJTBBc3BpcmFsKDIuMCUyQyUyMDUuMCUyQyUyMDAuMykucm90YXRlKGEpLm11bHQoc3BpcmFsKDEuMCUyQyUyMDMuMCUyQyUyMDAuMykpLm91dChvMiklMEFzcGlyYWwoMS4wJTJDJTIwNS4wJTJDJTIwMC4xKS5yb3RhdGUoYSkuZGlmZihicmljaygpKS5vdXQobzMpJTBBcmVuZGVyKCklMEElMEElMEE%3D"
+        ]
+    },
+    {
+        "name": "if then else",
+        "description": "Switch between different branches of your animation.",
+        "documentation": "https://gitlab.com/metagrowing/extra-shaders-for-hydra/-/tree/main/gallery/cond",
+        "author": "Thomas Jourdan",
+        "thumbnail": "kandid-lib-cond.png",
+        "load": "await loadScript(\\\"https://cdn.statically.io/gl/metagrowing/extra-shaders-for-hydra/main/lib/lib-cond.js\\\")",
+        "examples": [
+            "https://hydra.ojack.xyz/?code=JTJGJTJGJTIwbGljZW5zZWQlMjB3aXRoJTIwQ0MlMjBCWS1OQy1TQSUyMDQuMCUyMGh0dHBzJTNBJTJGJTJGY3JlYXRpdmVjb21tb25zLm9yZyUyRmxpY2Vuc2VzJTJGYnktbmMtc2ElMkY0LjAlMkYlMEFhd2FpdCUyMGxvYWRTY3JpcHQoJTIyaHR0cHMlM0ElMkYlMkZjZG4uc3RhdGljYWxseS5pbyUyRmdsJTJGbWV0YWdyb3dpbmclMkZleHRyYS1zaGFkZXJzLWZvci1oeWRyYSUyRm1haW4lMkZsaWIlMkZsaWItY29uZC5qcyUyMiklMEElMEFub2lzZSgpLnJlcGVhdCgpJTIwJTJGJTJGJTIwZGVmYXVsdCUyMGJyYW5jaCUwQSUwOS5pZnplcm8ob3NjKDUlMkMlMjAuMikucmVwZWF0KCkua2FsZWlkKCklMkMlMjAlMkYlMkYlMjBhbHRlcm5hdGUlMjBicmFuY2glMkMlMjBvbmx5JTIwd2hlbiUyMGNvbmRpZGl0aW9uJTIwaXMlMjBtZXQlMEElMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjAoKSUyMCUzRCUzRSUyME1hdGguc2luKDUuMSp0aW1lKSUwQSUwOSUwOSUwOSUyMCUyMCUyMCUyMCUyMCUyMCUyMCUyMCUyMColMjBNYXRoLmNvcyg3LjEqdGltZSkpJTIwJTJGJTJGJTIwdmFsdWUlMjBmb3IlMjB0aGUlMjBjb25kaXRpb24lMjAlMjJpZiUyMHplcm8lMjIlMjB0byUyMGJlJTIwdGVzdGVkJTBBJTA5Lm91dChvMCklMEE%3D"
         ]
     },
     {
