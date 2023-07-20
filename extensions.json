@@ -34,6 +34,17 @@
         ]
     },
     {
+        "name": "if then else",
+        "description": "Switch between different branches of your animation.",
+        "documentation": "https://gitlab.com/metagrowing/extra-shaders-for-hydra/-/tree/main/gallery/cond",
+        "author": "Thomas Jourdan",
+        "thumbnail": "kandid-lib-cond.png",
+        "load": "await loadScript(\\\"https://cdn.statically.io/gl/metagrowing/extra-shaders-for-hydra/main/lib/lib-cond.js\\\")",
+        "examples": [
+            "https://hydra.ojack.xyz/?code=JTJGJTJGJTIwbGljZW5zZWQlMjB3aXRoJTIwQ0MlMjBCWS1OQy1TQSUyMDQuMCUyMGh0dHBzJTNBJTJGJTJGY3JlYXRpdmVjb21tb25zLm9yZyUyRmxpY2Vuc2VzJTJGYnktbmMtc2ElMkY0LjAlMkYlMEFhd2FpdCUyMGxvYWRTY3JpcHQoJTIyaHR0cHMlM0ElMkYlMkZjZG4uc3RhdGljYWxseS5pbyUyRmdsJTJGbWV0YWdyb3dpbmclMkZleHRyYS1zaGFkZXJzLWZvci1oeWRyYSUyRm1haW4lMkZsaWIlMkZsaWItY29uZC5qcyUyMiklMEElMEFub2lzZSgpLnJlcGVhdCgpJTIwJTJGJTJGJTIwZGVmYXVsdCUyMGJyYW5jaCUwQSUwOS5pZnplcm8ob3NjKDUlMkMlMjAuMikucmVwZWF0KCkua2FsZWlkKCklMkMlMjAlMkYlMkYlMjBhbHRlcm5hdGUlMjBicmFuY2glMkMlMjBvbmx5JTIwd2hlbiUyMGNvbmRpZGl0aW9uJTIwaXMlMjBtZXQlMEElMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjAoKSUyMCUzRCUzRSUyME1hdGguc2luKDUuMSp0aW1lKSUwQSUwOSUwOSUwOSUyMCUyMCUyMCUyMCUyMCUyMCUyMCUyMCUyMColMjBNYXRoLmNvcyg3LjEqdGltZSkpJTIwJTJGJTJGJTIwdmFsdWUlMjBmb3IlMjB0aGUlMjBjb25kaXRpb24lMjAlMjJpZiUyMHplcm8lMjIlMjB0byUyMGJlJTIwdGVzdGVkJTBBJTA5Lm91dChvMCklMEE%3D"
+        ]
+    },
+    {
         "name": "hydra-arithmetics",
         "description": "Adds many functions related to visual arithmetics.",
         "documentation": "https://gitlab.com/metagrowing/extra-shaders-for-hydra/-/blob/main/gallery/pattern/README.md",
