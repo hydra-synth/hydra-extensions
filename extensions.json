@@ -25,7 +25,7 @@
     {
         "name": "Op-art patterns",
         "description": "Additional fragment shaders inspired by op-art patterns.",
-        "documentation": "https://gitlab.com/metagrowing/extra-shaders-for-hydra/-/tree/main/gallery/pattern",
+        "documentation": "https://gitlab.com/metagrowing/extra-shaders-for-hydra/-/blob/main/gallery/pattern/README.md",
         "author": "Thomas Jourdan",
         "thumbnail": "kandid-lib-pattern.png",
         "load": "await loadScript(\\\"https://cdn.statically.io/gl/metagrowing/extra-shaders-for-hydra/main/lib/lib-pattern.js\\\")",
