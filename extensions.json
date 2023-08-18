@@ -22,6 +22,28 @@
         ]
     },
     {
+        "name": "hydra-blend",
+        "description": "Adds many common blending modes to hydra, such as darken, screen, colorBurn.",
+        "documentation": "https://github.com/ritchse/hyper-hydra/blob/main/doc/hydra-blend.md",
+        "author": "ritchse",
+        "thumbnail": "arithmetics.png",
+        "load": "await loadScript(\\\"https://hyper-hydra.glitch.me/hydra-blend.js\\\")",
+        "examples": [
+            "https://hydra.ojack.xyz/?code=YXdhaXQlMjBsb2FkU2NyaXB0KCUyMmh0dHBzJTNBJTJGJTJGaHlwZXItaHlkcmEuZ2xpdGNoLm1lJTJGaHlkcmEtYmxlbmQuanMlMjIpJTBBJTBBb3NjKDMwKSUwQSUwOS5zY3JlZW4obm9pc2UoMyUyQzEpLnBtKCkpJTBBJTA5LmxpbmVhckJ1cm4oZ3JhZGllbnQoMSkuaHVlKC4zKSklMEElMDkub3V0KCk%3D"
+        ]
+    },
+    {
+        "name": "hydra-fractals",
+        "description": "Adds many common blending modes to hydra, such as darken, screen, colorBurn.",
+        "documentation": "https://github.com/ritchse/hyper-hydra/blob/main/doc/hydra-blend.md",
+        "author": "ritchse",
+        "thumbnail": "arithmetics.png",
+        "load": "await loadScript(\\\"https://hyper-hydra.glitch.me/hydra-blend.js\\\")",
+        "examples": [
+            "https://hydra.ojack.xyz/?code=YXdhaXQlMjBsb2FkU2NyaXB0KCUyMmh0dHBzJTNBJTJGJTJGaHlwZXItaHlkcmEuZ2xpdGNoLm1lJTJGaHlkcmEtZnJhY3RhbHMuanMlMjIpJTBBJTJGJTJGYXdhaXQlMjBsb2FkU2NyaXB0KCUyMmh0dHBzJTNBJTJGJTJGaHlwZXItaHlkcmEuZ2xpdGNoLm1lJTJGaHlkcmEtb3V0cHV0cy5qcyUyMiklMEElMEElMkYlMkZvUy5zZXRMaW5lYXIoKSUwQSUwQXNyYyhvMCklMEElMDkuc2NhbGUoLjc1KSUwQSUwOS5hZGQobm9pc2UoMiUyQzEpJTJDLjQpJTBBJTA5LmludmVydCgpJTBBJTA5LmludmVyc2lvbigpJTBBJTA5Lm1pcnJvclgyKCklMEElMDkuYmxlbmQobzAlMkMuMyklMEElMDkub3V0KCk%3D"
+        ]
+    },
+    {
         "name": "hydrated-gradient",
         "description": "make gradients with specified colors",
         "documentation": "https://hydrated.savamala.top/",
