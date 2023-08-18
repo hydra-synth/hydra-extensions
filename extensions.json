@@ -34,13 +34,57 @@
     },
     {
         "name": "hydra-fractals",
-        "description": "Adds many common blending modes to hydra, such as darken, screen, colorBurn.",
-        "documentation": "https://github.com/ritchse/hyper-hydra/blob/main/doc/hydra-blend.md",
+        "description": "Adds mirroring and other functions that can be useful for making fractals. see also: hydra-wrap",
+        "documentation": "https://github.com/ritchse/hyper-hydra/blob/main/doc/hydra-fractals.md",
         "author": "ritchse",
         "thumbnail": "arithmetics.png",
-        "load": "await loadScript(\\\"https://hyper-hydra.glitch.me/hydra-blend.js\\\")",
+        "load": "await loadScript(\\\"https://hyper-hydra.glitch.me/hydra-fractals.js\\\")",
         "examples": [
             "https://hydra.ojack.xyz/?code=YXdhaXQlMjBsb2FkU2NyaXB0KCUyMmh0dHBzJTNBJTJGJTJGaHlwZXItaHlkcmEuZ2xpdGNoLm1lJTJGaHlkcmEtZnJhY3RhbHMuanMlMjIpJTBBJTJGJTJGYXdhaXQlMjBsb2FkU2NyaXB0KCUyMmh0dHBzJTNBJTJGJTJGaHlwZXItaHlkcmEuZ2xpdGNoLm1lJTJGaHlkcmEtb3V0cHV0cy5qcyUyMiklMEElMEElMkYlMkZvUy5zZXRMaW5lYXIoKSUwQSUwQXNyYyhvMCklMEElMDkuc2NhbGUoLjc1KSUwQSUwOS5hZGQobm9pc2UoMiUyQzEpJTJDLjQpJTBBJTA5LmludmVydCgpJTBBJTA5LmludmVyc2lvbigpJTBBJTA5Lm1pcnJvclgyKCklMEElMDkuYmxlbmQobzAlMkMuMyklMEElMDkub3V0KCk%3D"
+        ]
+    },
+    {
+        "name": "hydra-gif",
+        "description": "Let's you load .gif files into Hydra.",
+        "documentation": "https://github.com/ritchse/hyper-hydra/blob/main/doc/hydra-gif.md",
+        "author": "ritchse",
+        "thumbnail": "arithmetics.png",
+        "load": "await loadScript(\\\"https://hyper-hydra.glitch.me/hydra-gif.js\\\")",
+        "examples": [
+            "https://hydra.ojack.xyz/?code=YXdhaXQlMjBsb2FkU2NyaXB0KCUyMmh0dHBzJTNBJTJGJTJGaHlwZXItaHlkcmEuZ2xpdGNoLm1lJTJGaHlkcmEtZ2lmLmpzJTIyKSUwQSUwQXMwLmluaXRHaWYoJ2h0dHBzJTNBJTJGJTJGaS5naXBoeS5jb20lMkZtZWRpYSUyRmtacWJCVDY0RUN0anklMkZnaXBoeS5naWYnKSUwQSUwQXNyYyhzMCkuc2NhbGUoMSUyQy42KSUwQSUwOS5vdXQoKQ%3D%3D"
+        ]
+    },
+    {
+        "name": "hydra-outputs",
+        "description": "Change settings of framebuffers used by Hydra's outputs. The most common use case is setting framebuffers to use linear interpolation instead of the default, nearest neighbour.",
+        "documentation": "https://github.com/ritchse/hyper-hydra/blob/main/doc/hydra-outputs.md",
+        "author": "ritchse",
+        "thumbnail": "arithmetics.png",
+        "load": "await loadScript(\\\"https://hyper-hydra.glitch.me/hydra-outputs.js\\\")",
+        "examples": [
+            "https://hydra.ojack.xyz/?code=YXdhaXQlMjBsb2FkU2NyaXB0KCUyMmh0dHBzJTNBJTJGJTJGaHlwZXItaHlkcmEuZ2xpdGNoLm1lJTJGaHlkcmEtb3V0cHV0cy5qcyUyMiklMEElMEFvMC5zZXROZWFyZXN0KCklMEFvMS5zZXRMaW5lYXIoKSUwQSUwQXNyYyhvMCklMEElMjAubGF5ZXIob3NjKDMwJTJDLjIlMkMxKS5tYXNrKHNoYXBlKDQlMkMuMSUyQzApKSklMEElMjAuc2NhbGUoMS4wMSkucm90YXRlKC4wMSklMEElMjAub3V0KG8wKSUwQSUwQXNyYyhvMSklMEElMjAubGF5ZXIob3NjKDMwJTJDLjIlMkMxKS5tYXNrKHNoYXBlKDQlMkMuMSUyQzApKSklMEElMjAuc2NhbGUoMS4wMSkucm90YXRlKC4wMSklMEElMjAub3V0KG8xKSUwQSUwQXJlbmRlcigp"
+        ]
+    },
+    {
+        "name": "hydra-text",
+        "description": "Configurable canvas text generator to use as a hydra source.",
+        "documentation": "https://github.com/ritchse/hyper-hydra/blob/main/doc/hydra-text.md",
+        "author": "ritchse",
+        "thumbnail": "arithmetics.png",
+        "load": "await loadScript(\\\"https://hyper-hydra.glitch.me/hydra-text.js\\\")",
+        "examples": [
+            "https://hydra.ojack.xyz/?code=YXdhaXQlMjBsb2FkU2NyaXB0KCUyMmh0dHBzJTNBJTJGJTJGaHlwZXItaHlkcmEuZ2xpdGNoLm1lJTJGaHlkcmEtdGV4dC5qcyUyMiklMEElMEFoeWRyYVRleHQuZm9udCUyMCUzRCUyMCUyMnNlcmlmJTIyJTBBaHlkcmFUZXh0LmxpbmVXaWR0aCUyMCUzRCUyMCUyMjIlMjUlMjIlMEFzdHIlMjAlM0QlMjAlMjIlMjBoeWRyYV8hJTIwJTIyJTBBc29saWQoMSUyQy4yKSUwQSUwOS5ibGVuZChzcmMobzApLnNjYWxlKDEuMDIpLmNvbG9yYW1hKC4wMikpJTBBJTA5LmxheWVyKHRleHQoc3RyKSklMEElMDkuZGlmZihzdHJva2VUZXh0KHN0cikubW9kdWxhdGVTY2FsZShub2lzZSgxJTJDMSklMkMlMjAuNCkpJTBBJTA5Lm91dCgp"
+        ]
+    },
+    {
+        "name": "hydra-wrap",
+        "description": "Change how Hydra wraps textures, and control the wrapping of source functions such as osc() and noise().",
+        "documentation": "https://github.com/ritchse/hyper-hydra/blob/main/doc/hydra-wrap.md",
+        "author": "ritchse",
+        "thumbnail": "arithmetics.png",
+        "load": "await loadScript(\\\"https://hyper-hydra.glitch.me/hydra-wrap.js\\\")",
+        "examples": [
+            "https://hydra.ojack.xyz/?code=YXdhaXQlMjBsb2FkU2NyaXB0KCUyMmh0dHBzJTNBJTJGJTJGaHlwZXItaHlkcmEuZ2xpdGNoLm1lJTJGaHlkcmEtd3JhcC5qcyUyMiklMEElMEFoeWRyYVdyYXAuc2V0TWlycm9yKCklMEElMEFzcmMobzApJTBBJTA5LmxheWVyKG9zYygpLnJvdGF0ZSgpLm1hc2soc2hhcGUoNCUyQzElMkMwKSkpJTBBJTA5LnNjYWxlKC41KSUwQSUwOS5ibGVuZChub2lzZSgpJTJDLjIpJTBBJTA5Lm91dCgp"
         ]
     },
     {
