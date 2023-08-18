@@ -4,7 +4,7 @@
         "description": "use the camera as a source",
         "documentation": "",
         "author": "",
-        "thumbnail": "op-art.png",
+        "thumbnail": "example-webcam.png",
         "load": null,
         "examples": [
             "https://hydra.ojack.xyz/?code=czAuaW5pdENhbSgpJTIwJTJGJTJGaW5pdGlhbGl6ZSUyMHdlYmNhbSUyMGFzJTIwZXh0ZXJuYWwlMjBzb3VyY2UlMjAnczAnJTBBc3JjKHMwKS5vdXQoKSUyMCUyRiUyRiUyMHVzZSUyMGV4dGVybmFsJTIwc291cmNlJTIwJ3MwJyUyMGluc2lkZSUyMEh5ZHJh",
