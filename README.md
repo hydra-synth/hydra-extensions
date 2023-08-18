@@ -26,7 +26,7 @@ Repository of community extensions and examples for hydra-video-synth. Files are
 - **description**: SHORT description of what it does
 - **documentation**: link to documentation (for extensions, addons, external libraries)
 - **author**: include extension author, original library author(s)
-- **thumbnail**: ! should be 40px by 40px
+- **thumbnail**: ! should be 60px by 60px
 - **load**: script for loading external script. make sure to escape quotation marks with '\\\' to be valid json. i.e. 
   ```js
   await loadScript("https://cdn.statically.io/gl/metagrowing/extra-shaders-for-hydra/main/lib/lib-pattern.js")
