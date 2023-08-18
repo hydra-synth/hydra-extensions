@@ -70,12 +70,12 @@
     {
         "name": "hydra-arithmetics",
         "description": "Adds many functions related to visual arithmetics.",
-        "documentation": "https://gitlab.com/metagrowing/extra-shaders-for-hydra/-/blob/main/gallery/pattern/README.md",
+        "documentation":  "https://github.com/ritchse/hyper-hydra/blob/main/doc/hydra-arithmetics.md",
         "author": "ritchse",
         "thumbnail": "ritchse-hydra-arithmetics.png",
-        "load": "await loadScript(\\\"https://hydra-extensions.glitch.me/hydra-arithmetics.js\\\")",
+        "load": "await loadScript(\\\"https://hyper-hydra.glitch.me/hydra-arithmetics.js\\\")",
         "examples": [
-            "https://hydra.ojack.xyz/?code=YXdhaXQlMjBsb2FkU2NyaXB0KCUyMmh0dHBzJTNBJTJGJTJGaHlkcmEtZXh0ZW5zaW9ucy5nbGl0Y2gubWUlMkZoeWRyYS1hcml0aG1ldGljcy5qcyUyMiklMEElMEFvc2MoMTAlMkMuMSUyQzIpJTBBJTA5Lm1vZChncmFkaWVudCgpLmFzaW4oKS5jb3MoKSklMEElMDkuc3RlcChub2lzZSgyKS51bmlwb2xhcigpLmRpdihvMCkpJTBBJTA5LmJsZW5kKG8wJTJDLjIpJTBBJTA5Lm91dCgp"
+            "https://hydra.ojack.xyz/?code=YXdhaXQlMjBsb2FkU2NyaXB0KCUyMmh0dHBzJTNBJTJGJTJGaHlwZXItaHlkcmEuZ2xpdGNoLm1lJTJGaHlkcmEtYXJpdGhtZXRpY3MuanMlMjIpJTBBJTBBb3NjKDEwJTJDLjElMkMyKSUwQSUwOS5tb2QoZ3JhZGllbnQoKS5hc2luKCkuY29zKCkpJTBBJTA5LnN0ZXAobm9pc2UoMikudW5pcG9sYXIoKS5kaXYobzApKSUwQSUwOS5ibGVuZChvMCUyQy4yKSUwQSUwOS5vdXQoKQ%3D%3D"
         ]
     },
     {
