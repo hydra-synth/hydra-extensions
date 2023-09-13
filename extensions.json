@@ -73,7 +73,7 @@
         "documentation":  "https://github.com/ritchse/hyper-hydra/blob/main/doc/hydra-arithmetics.md",
         "author": "ritchse",
         "thumbnail": "ritchse-hydra-arithmetics.png",
-        "load": "await loadScript(\\\"https://hyper-hydra.glitch.me/hydra-arithmetics.js\\\")",
+        "load": "await loadScript(\"https://hyper-hydra.glitch.me/hydra-arithmetics.js\")",
         "examples": [
             "https://hydra.ojack.xyz/?code=YXdhaXQlMjBsb2FkU2NyaXB0KCUyMmh0dHBzJTNBJTJGJTJGaHlwZXItaHlkcmEuZ2xpdGNoLm1lJTJGaHlkcmEtYXJpdGhtZXRpY3MuanMlMjIpJTBBJTBBb3NjKDEwJTJDLjElMkMyKSUwQSUwOS5tb2QoZ3JhZGllbnQoKS5hc2luKCkuY29zKCkpJTBBJTA5LnN0ZXAobm9pc2UoMikudW5pcG9sYXIoKS5kaXYobzApKSUwQSUwOS5ibGVuZChvMCUyQy4yKSUwQSUwOS5vdXQoKQ%3D%3D"
         ]
@@ -84,7 +84,7 @@
         "documentation": "https://github.com/ritchse/hyper-hydra/blob/main/doc/hydra-blend.md",
         "author": "ritchse",
         "thumbnail": "ritchse-hydra-blend.png",
-        "load": "await loadScript(\\\"https://hyper-hydra.glitch.me/hydra-blend.js\\\")",
+        "load": "await loadScript(\"https://hyper-hydra.glitch.me/hydra-blend.js\")",
         "examples": [
             "https://hydra.ojack.xyz/?code=YXdhaXQlMjBsb2FkU2NyaXB0KCUyMmh0dHBzJTNBJTJGJTJGaHlwZXItaHlkcmEuZ2xpdGNoLm1lJTJGaHlkcmEtYmxlbmQuanMlMjIpJTBBJTBBb3NjKDMwKSUwQSUwOS5zY3JlZW4obm9pc2UoMyUyQzEpLnBtKCkpJTBBJTA5LmxpbmVhckJ1cm4oZ3JhZGllbnQoMSkuaHVlKC4zKSklMEElMDkub3V0KCk%3D"
         ]
@@ -95,7 +95,7 @@
         "documentation": "https://github.com/ritchse/hyper-hydra/blob/main/doc/hydra-fractals.md",
         "author": "ritchse",
         "thumbnail": "ritchse-hydra-fractals.png",
-        "load": "await loadScript(\\\"https://hyper-hydra.glitch.me/hydra-fractals.js\\\")",
+        "load": "await loadScript(\"https://hyper-hydra.glitch.me/hydra-fractals.js\")",
         "examples": [
             "https://hydra.ojack.xyz/?code=YXdhaXQlMjBsb2FkU2NyaXB0KCUyMmh0dHBzJTNBJTJGJTJGaHlwZXItaHlkcmEuZ2xpdGNoLm1lJTJGaHlkcmEtZnJhY3RhbHMuanMlMjIpJTBBJTJGJTJGYXdhaXQlMjBsb2FkU2NyaXB0KCUyMmh0dHBzJTNBJTJGJTJGaHlwZXItaHlkcmEuZ2xpdGNoLm1lJTJGaHlkcmEtb3V0cHV0cy5qcyUyMiklMEElMEElMkYlMkZvUy5zZXRMaW5lYXIoKSUwQSUwQXNyYyhvMCklMEElMDkuc2NhbGUoLjc1KSUwQSUwOS5hZGQobm9pc2UoMiUyQzEpJTJDLjQpJTBBJTA5LmludmVydCgpJTBBJTA5LmludmVyc2lvbigpJTBBJTA5Lm1pcnJvclgyKCklMEElMDkuYmxlbmQobzAlMkMuMyklMEElMDkub3V0KCk%3D"
         ]
@@ -106,7 +106,7 @@
         "documentation": "https://github.com/ritchse/hyper-hydra/blob/main/doc/hydra-gif.md",
         "author": "ritchse",
         "thumbnail": "ritchse-hydra-gif.png",
-        "load": "await loadScript(\\\"https://hyper-hydra.glitch.me/hydra-gif.js\\\")",
+        "load": "await loadScript(\"https://hyper-hydra.glitch.me/hydra-gif.js\")",
         "examples": [
             "https://hydra.ojack.xyz/?code=YXdhaXQlMjBsb2FkU2NyaXB0KCUyMmh0dHBzJTNBJTJGJTJGaHlwZXItaHlkcmEuZ2xpdGNoLm1lJTJGaHlkcmEtZ2lmLmpzJTIyKSUwQSUwQXMwLmluaXRHaWYoJ2h0dHBzJTNBJTJGJTJGaS5naXBoeS5jb20lMkZtZWRpYSUyRmtacWJCVDY0RUN0anklMkZnaXBoeS5naWYnKSUwQSUwQXNyYyhzMCkuc2NhbGUoMSUyQy42KSUwQSUwOS5vdXQoKQ%3D%3D"
         ]
@@ -117,7 +117,7 @@
         "documentation": "https://github.com/ritchse/hyper-hydra/blob/main/doc/hydra-outputs.md",
         "author": "ritchse",
         "thumbnail": "ritchse-hydra-outputs.png",
-        "load": "await loadScript(\\\"https://hyper-hydra.glitch.me/hydra-outputs.js\\\")",
+        "load": "await loadScript(\"https://hyper-hydra.glitch.me/hydra-outputs.js\")",
         "examples": [
             "https://hydra.ojack.xyz/?code=YXdhaXQlMjBsb2FkU2NyaXB0KCUyMmh0dHBzJTNBJTJGJTJGaHlwZXItaHlkcmEuZ2xpdGNoLm1lJTJGaHlkcmEtb3V0cHV0cy5qcyUyMiklMEElMEFvMC5zZXROZWFyZXN0KCklMEFvMS5zZXRMaW5lYXIoKSUwQSUwQXNyYyhvMCklMEElMjAubGF5ZXIob3NjKDMwJTJDLjIlMkMxKS5tYXNrKHNoYXBlKDQlMkMuMSUyQzApKSklMEElMjAuc2NhbGUoMS4wMSkucm90YXRlKC4wMSklMEElMjAub3V0KG8wKSUwQSUwQXNyYyhvMSklMEElMjAubGF5ZXIob3NjKDMwJTJDLjIlMkMxKS5tYXNrKHNoYXBlKDQlMkMuMSUyQzApKSklMEElMjAuc2NhbGUoMS4wMSkucm90YXRlKC4wMSklMEElMjAub3V0KG8xKSUwQSUwQXJlbmRlcigp"
         ]
@@ -128,7 +128,7 @@
         "documentation": "https://github.com/ritchse/hyper-hydra/blob/main/doc/hydra-text.md",
         "author": "ritchse",
         "thumbnail": "ritchse-hydra-text.png",
-        "load": "await loadScript(\\\"https://hyper-hydra.glitch.me/hydra-text.js\\\")",
+        "load": "await loadScript(\"https://hyper-hydra.glitch.me/hydra-text.js\")",
         "examples": [
             "https://hydra.ojack.xyz/?code=YXdhaXQlMjBsb2FkU2NyaXB0KCUyMmh0dHBzJTNBJTJGJTJGaHlwZXItaHlkcmEuZ2xpdGNoLm1lJTJGaHlkcmEtdGV4dC5qcyUyMiklMEElMEFoeWRyYVRleHQuZm9udCUyMCUzRCUyMCUyMnNlcmlmJTIyJTBBaHlkcmFUZXh0LmxpbmVXaWR0aCUyMCUzRCUyMCUyMjIlMjUlMjIlMEFzdHIlMjAlM0QlMjAlMjIlMjBoeWRyYV8hJTIwJTIyJTBBc29saWQoMSUyQy4yKSUwQSUwOS5ibGVuZChzcmMobzApLnNjYWxlKDEuMDIpLmNvbG9yYW1hKC4wMikpJTBBJTA5LmxheWVyKHRleHQoc3RyKSklMEElMDkuZGlmZihzdHJva2VUZXh0KHN0cikubW9kdWxhdGVTY2FsZShub2lzZSgxJTJDMSklMkMlMjAuNCkpJTBBJTA5Lm91dCgp"
         ]
@@ -139,7 +139,7 @@
         "documentation": "https://github.com/ritchse/hyper-hydra/blob/main/doc/hydra-wrap.md",
         "author": "ritchse",
         "thumbnail": "ritchse-hydra-wrap.png",
-        "load": "await loadScript(\\\"https://hyper-hydra.glitch.me/hydra-wrap.js\\\")",
+        "load": "await loadScript(\"https://hyper-hydra.glitch.me/hydra-wrap.js\")",
         "examples": [
             "https://hydra.ojack.xyz/?code=YXdhaXQlMjBsb2FkU2NyaXB0KCUyMmh0dHBzJTNBJTJGJTJGaHlwZXItaHlkcmEuZ2xpdGNoLm1lJTJGaHlkcmEtd3JhcC5qcyUyMiklMEElMEFoeWRyYVdyYXAuc2V0TWlycm9yKCklMEElMEFzcmMobzApJTBBJTA5LmxheWVyKG9zYygpLnJvdGF0ZSgpLm1hc2soc2hhcGUoNCUyQzElMkMwKSkpJTBBJTA5LnNjYWxlKC41KSUwQSUwOS5ibGVuZChub2lzZSgpJTJDLjIpJTBBJTA5Lm91dCgp"
         ]
@@ -150,7 +150,7 @@
         "documentation": "https://hydrated.savamala.top/",
         "author": "Joan Queralt",
         "thumbnail": "gradient.png",
-        "load": "await loadScript(\\\"https://hydrated.savamala.top/hydra-gradient.js\\\")",
+        "load": "await loadScript(\"https://hydrated.savamala.top/hydra-gradient.js\")",
         "examples": [
            "https://hydra.ojack.xyz/?code=YXdhaXQlMjBsb2FkU2NyaXB0KCUyMmh0dHBzJTNBJTJGJTJGaHlkcmF0ZWQuc2F2YW1hbGEudG9wJTJGaHlkcmEtZ3JhZGllbnQuanMlMjIpJTBBJTBBJTJGJTJGJTIwVXNlJTIwZ3JhZGllbnQyJTIwdG8lMjBjcmVhdGUlMjBhJTIwZ3JhZGllbnQlMjBiZXR3ZWVuJTIwdHdvJTIwY29sb3JzJTNBJTBBJTJGJTJGJTIwZ3JhZGllbnQyKHIwJTNEMSUyQ2cwJTNEMCUyQ2IwJTNEJTJDcjElM0QwJTJDZzElM0QwJTJDYjElM0QxJTJDc3BlZWQlM0QwKSUwQSUwQWdyYWRpZW50MigxJTJDMCUyQzAlMkMwLjglMkMwJTJDMC44JTJDMC4yKS5vdXQoKSUwQSUwQXJlbmRlcihvMCk%3D"
         ]
@@ -162,7 +162,7 @@
         "documentation": "https://shaderpark.com/",
         "author": "emptyflash, Torin Blankensmith and Peter Whidden",
         "thumbnail": "shader-park.png",
-        "load": "const { sculptToHydraRenderer } = await import(\\\"https://livecode.emptyfla.sh/hydra/all.js\\\")",
+        "load": "const { sculptToHydraRenderer } = await import(\"https://livecode.emptyfla.sh/hydra/all.js\")",
         "examples": [
            "https://hydra.ojack.xyz/?code=JTJGJTJGJTIwbGljZW5zZWQlMjB3aXRoJTIwQ0MlMjBCWS1OQy1TQSUyMDQuMCUyMGh0dHBzJTNBJTJGJTJGY3JlYXRpdmVjb21tb25zLm9yZyUyRmxpY2Vuc2VzJTJGYnktbmMtc2ElMkY0LjAlMkYlMEFjb25zdCUyMCU3QiUyMHNjdWxwdFRvSHlkcmFSZW5kZXJlciUyMCU3RCUyMCUzRCUyMGF3YWl0JTIwaW1wb3J0KCUyMmh0dHBzJTNBJTJGJTJGbGl2ZWNvZGUuZW1wdHlmbGEuc2glMkZoeWRyYSUyRmFsbC5qcyUyMiklMEElMEFzY3VscHRUb0h5ZHJhUmVuZGVyZXIoKCklMjAlM0QlM0UlMjAlN0IlMEElMDklMDlyb3RhdGVYKHRpbWUlMjAlMkYlMjA1KSUwQSUwOSUwOXJvdGF0ZVoodGltZSUyMCUyRiUyMDMpJTBBJTA5JTA5ZGlzcGxhY2Uoc2luKHRpbWUpJTJDJTIwMSUyQyUyMDApJTBBJTA5JTA5bWlycm9yTigzJTJDJTIwMyklMEElMDklMDl0b3J1cygwLjglMkMlMjAwLjM4JTIwJTJCJTIwMC4xJTIwKiUyMHNpbih0aW1lKSklMEElMDklN0QpJTBBJTA5Lm91dChvMCklMEElMEFyZW5kZXIobzApJTBB"
         ]
@@ -174,7 +174,7 @@
         "documentation": "https://github.com/arnoson/hydra-midi",
         "author": "Arno Schlipf",
         "thumbnail": "hydra-midi.png",
-        "load": "await loadScript(\\\"https://cdn.jsdelivr.net/npm/hydra-midi@latest/dist/index.js\\\")",
+        "load": "await loadScript(\"https://cdn.jsdelivr.net/npm/hydra-midi@latest/dist/index.js\")",
         "examples": [
            "https://hydra.ojack.xyz/?code=JTJGJTJGJTIwWW91JTIwY2FuJTIwZWl0aGVyJTIwdXNlJTIwJTYwJTQwbGF0ZXN0JTYwJTIwb3IlMjBsb2FkJTIwYSUyMHNwZWNpZmljJTIwdmVyc2lvbiUyMHdpdGglMkMlMjBmb3IlMjBleGFtcGxlJTJDJTIwJTYwJTQwMC40LjAlNjAuJTBBYXdhaXQlMjBsb2FkU2NyaXB0KCUwQSUyMCUyMCdodHRwcyUzQSUyRiUyRmNkbi5qc2RlbGl2ci5uZXQlMkZucG0lMkZoeWRyYS1taWRpJTQwbGF0ZXN0JTJGZGlzdCUyRmluZGV4LmpzJyUwQSklMEElMEElMkYlMkYlMjBVc2UlMjBtaWRpJTIwbWVzc2FnZXMlMjBmcm9tJTIwYWxsJTIwY2hhbm5lbHMlMjBvZiUyMGFsbCUyMGlucHV0cy4lMEFhd2FpdCUyMG1pZGkuc3RhcnQoJTdCJTIwY2hhbm5lbCUzQSUyMCcqJyUyQyUyMGlucHV0JTNBJTIwJyonJTIwJTdEKSUwQSUyRiUyRiUyMFNob3clMjBhJTIwc21hbGwlMjBtaWRpJTIwbW9uaXRvciUyMChzaW1pbGFyJTIwdG8lMjBoeWRyYSdzJTIwJTYwYS5zaG93KCklNjApLiUwQW1pZGkuc2hvdygpJTBBJTBBJTJGJTJGJTIwVXNlJTIwYW55JTIwbm90ZSUyMHRvJTIwY29udHJvbCUyMHRoZSUyMHJlZCUyMGFtb3VudCUyMG9mJTIwaHlkcmEncyUyMCU2MHNvbGlkKCklNjAlMjBmdW5jdGlvbi4lMEFzb2xpZChub3RlKCcqJyklMkMlMjAwJTJDJTIwMSkub3V0KCklMEElMEElMkYlMkYlMjBPciUyQyUyMGlmJTIweW91JTIwYXJlJTIwdXNpbmclMjBhJTIwbWlkaSUyMGNvbnRyb2xsZXIlMjBhbmQlMjBub3QlMjBhJTIwa2V5Ym9hcmQlM0ElMEElMkYlMkYlMjBVc2UlMjBhJTIwY29udHJvbCUyMGNoYW5nZSUyMHZhbHVlJTIwdG8lMjBjb250cm9sJTIwdGhlJTIwcmVkJTIwYW1vdW50LiUwQSUyRiUyRiUyMHNvbGlkKGNjKDc0KSUyQyUyMDAlMkMlMjAxKS5vdXQoKQ%3D%3D"
         ]
