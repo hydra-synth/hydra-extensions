@@ -16,7 +16,7 @@ Repository of community extensions and examples for hydra-video-synth. Files are
         "documentation": "https://gitlab.com/metagrowing/extra-shaders-for-hydra#op-art-patterns",
         "author": "Thomas Jourdan",
         "thumbnail": "op-art.png",
-        "load": "await loadScript(\"https://cdn.statically.io/gl/metagrowing/extra-shaders-for-hydra/main/lib/lib-pattern.js\")",
+        "load": "await loadScript(\\\"https://cdn.statically.io/gl/metagrowing/extra-shaders-for-hydra/main/lib/lib-pattern.js\\\")",
         "examples": [
             "https://hydra.ojack.xyz/?code=JTJGJTJGJTIwbGljZW5zZWQlMjB3aXRoJTIwQ0MlMjBCWS1OQy1TQSUyMDQuMCUyMGh0dHBzJTNBJTJGJTJGY3JlYXRpdmVjb21tb25zLm9yZyUyRmxpY2Vuc2VzJTJGYnktbmMtc2ElMkY0LjAlMkYlMEFhd2FpdCUyMGxvYWRTY3JpcHQoJTIyaHR0cHMlM0ElMkYlMkZjZG4uc3RhdGljYWxseS5pbyUyRmdsJTJGbWV0YWdyb3dpbmclMkZleHRyYS1zaGFkZXJzLWZvci1oeWRyYSUyRm1haW4lMkZsaWIlMkZsaWItcGF0dGVybi5qcyUyMiklMEElMEFhJTIwJTNEJTIwKCklMjAlM0QlM0UlMjAwLjEzNyUyMColMjB0aW1lJTNCJTBBc3BpcmFsKDIuMCUyQyUyMDUuMCUyQyUyMDAuMykucm90YXRlKCgpJTIwJTNEJTNFJTIwLTIuMCUyMColMjBhKCkpLm91dChvMCklMEFzcGlyYWwoMi4wJTJDJTIwNS4wJTJDJTIwMC4zKS5yb3RhdGUoYSkuZGlmZihjb25jZW50cmljKDEwMC4wJTJDMC4yNSUyQzAuMjUpKS5vdXQobzEpJTBBc3BpcmFsKDIuMCUyQyUyMDUuMCUyQyUyMDAuMykucm90YXRlKGEpLm11bHQoc3BpcmFsKDEuMCUyQyUyMDMuMCUyQyUyMDAuMykpLm91dChvMiklMEFzcGlyYWwoMS4wJTJDJTIwNS4wJTJDJTIwMC4xKS5yb3RhdGUoYSkuZGlmZihicmljaygpKS5vdXQobzMpJTBBcmVuZGVyKCklMEElMEElMEE%3D"
         ]
@@ -27,13 +27,13 @@ Repository of community extensions and examples for hydra-video-synth. Files are
 - **documentation**: link to documentation (for extensions, addons, external libraries)
 - **author**: include extension author, original library author(s)
 - **thumbnail**: ! should be 60px by 60px
-- **load**: script for loading external script. make sure to escape quotation marks with '\' to be valid json. i.e. 
+- **load**: script for loading external script. make sure to escape quotation marks with '\\\' to be valid json. i.e. 
   ```js
   await loadScript("https://cdn.statically.io/gl/metagrowing/extra-shaders-for-hydra/main/lib/lib-pattern.js")
   ```
 should be
 ```json
-"await loadScript(\"https://cdn.statically.io/gl/metagrowing/extra-shaders-for-hydra/main/lib/lib-pattern.js\")"
+"await loadScript(\\\"https://cdn.statically.io/gl/metagrowing/extra-shaders-for-hydra/main/lib/lib-pattern.js\\\")"
 ```
 - **examples**: array of hydra links to example usage for this extension. Some guidelines for writing examples:
     - comment the code 
