@@ -178,5 +178,29 @@
         "examples": [
            "https://hydra.ojack.xyz/?code=JTJGJTJGJTIwWW91JTIwY2FuJTIwZWl0aGVyJTIwdXNlJTIwJTYwJTQwbGF0ZXN0JTYwJTIwb3IlMjBsb2FkJTIwYSUyMHNwZWNpZmljJTIwdmVyc2lvbiUyMHdpdGglMkMlMjBmb3IlMjBleGFtcGxlJTJDJTIwJTYwJTQwMC40LjAlNjAuJTBBYXdhaXQlMjBsb2FkU2NyaXB0KCUwQSUyMCUyMCdodHRwcyUzQSUyRiUyRmNkbi5qc2RlbGl2ci5uZXQlMkZucG0lMkZoeWRyYS1taWRpJTQwbGF0ZXN0JTJGZGlzdCUyRmluZGV4LmpzJyUwQSklMEElMEElMkYlMkYlMjBVc2UlMjBtaWRpJTIwbWVzc2FnZXMlMjBmcm9tJTIwYWxsJTIwY2hhbm5lbHMlMjBvZiUyMGFsbCUyMGlucHV0cy4lMEFhd2FpdCUyMG1pZGkuc3RhcnQoJTdCJTIwY2hhbm5lbCUzQSUyMCcqJyUyQyUyMGlucHV0JTNBJTIwJyonJTIwJTdEKSUwQSUyRiUyRiUyMFNob3clMjBhJTIwc21hbGwlMjBtaWRpJTIwbW9uaXRvciUyMChzaW1pbGFyJTIwdG8lMjBoeWRyYSdzJTIwJTYwYS5zaG93KCklNjApLiUwQW1pZGkuc2hvdygpJTBBJTBBJTJGJTJGJTIwVXNlJTIwYW55JTIwbm90ZSUyMHRvJTIwY29udHJvbCUyMHRoZSUyMHJlZCUyMGFtb3VudCUyMG9mJTIwaHlkcmEncyUyMCU2MHNvbGlkKCklNjAlMjBmdW5jdGlvbi4lMEFzb2xpZChub3RlKCcqJyklMkMlMjAwJTJDJTIwMSkub3V0KCklMEElMEElMkYlMkYlMjBPciUyQyUyMGlmJTIweW91JTIwYXJlJTIwdXNpbmclMjBhJTIwbWlkaSUyMGNvbnRyb2xsZXIlMjBhbmQlMjBub3QlMjBhJTIwa2V5Ym9hcmQlM0ElMEElMkYlMkYlMjBVc2UlMjBhJTIwY29udHJvbCUyMGNoYW5nZSUyMHZhbHVlJTIwdG8lMjBjb250cm9sJTIwdGhlJTIwcmVkJTIwYW1vdW50LiUwQSUyRiUyRiUyMHNvbGlkKGNjKDc0KSUyQyUyMDAlMkMlMjAxKS5vdXQoKQ%3D%3D"
         ]
+    },
+    {
+        "name": "hydra-strudel",
+        "description": "strudel in hydra",
+        "www": "https://github.com/atfornes/Hydra-strudel-extension",
+        "documentation": "https://github.com/atfornes/Hydra-strudel-extension",
+        "author": "Olivia Jack, Felix Roos, Ámbar Tenorio",
+        "thumbnail": "hydra-strudel.png",
+        "load": "await loadScript(\"https://cdn.jsdelivr.net/gh/atfornes/Hydra-strudel-extension@latest/hydra-strudel.js\")\nawait initHydraStrudel()",
+      "examples": [
+        "https://hydra.ojack.xyz/?code=YXdhaXQlMjBsb2FkU2NyaXB0KCUyMmh0dHBzJTNBJTJGJTJGY2RuLmpzZGVsaXZyLm5ldCUyRmdoJTJGYXRmb3JuZXMlMkZIeWRyYS1zdHJ1ZGVsLWV4dGVuc2lvbiU0MGxhdGVzdCUyRmh5ZHJhLXN0cnVkZWwuanMlMjIpJTBBYXdhaXQlMjBpbml0SHlkcmFTdHJ1ZGVsKCklMEElMEElMkYlMkYlMjBTdHJ1ZGVsJTIwbG9nbyUwQXMwLmluaXRJbWFnZSglMjJodHRwcyUzQSUyRiUyRnN0cnVkZWwudGlkYWxjeWNsZXMub3JnJTJGaWNvbnMlMkZzdHJ1ZGVsX2ljb24ucG5nJTIyKSUyMCUwQSUwQSUyRiUyRiUyMFN0cnVkZWwlMjBtaW5pLW5vdGF0aW9uJTIwcGF0dGVybiUwQW15UGF0dGVybiUyMCUzRCUyMG1pbmkoJzAlMjAxMCUyMCU1QjIlMjA1MSU1RCo0Jykuc2xvdygyKSUwQSUwQSUyRiUyRiUyMHBsYXklMjB0aGUlMjBwYXR0ZXJuJTBBbm90ZShteVBhdHRlcm4pLnBsYXkoKSUwQSUwQSUwQSUyRiUyRiUyMHJlcGVhdCUyMHRoZSUyMGxvZ28lMjBmb2xsb3dpbmclMjB0aGUlMjBwYXR0ZXJuJTBBc3JjKHMwKS5yZXBlYXQoKCklMjAlM0QlM0UlMjBteVBhdHRlcm4udmFsdWUoKSklMEElMjAlMjAub3V0KCklMEElMEElMkYlMkYlMjBTdG9wJTIwc291bmQlM0ElMEElMkYlMkYlMjBDdHJsJTIwJTJCJTIwLiUwQSUyRiUyRiUyMG9yJTBBJTJGJTJGJTIwc2h1c2goKQ%3D%3D"
+      ]
+    },
+    {
+      "name": "scrawlink QR extension",
+      "description": "Share your code live with QR codes",
+      "www": "https://github.com/Scrawlink/scrawlink-extension/",
+      "documentation": "https://github.com/Scrawlink/scrawlink-extension/",
+      "author": "Ámbar Tenorio",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/Scrawlink/scrawlink-extension/images/icon-128.png",
+      "load":"await loadScript(\"https://cdn.jsdelivr.net/gh/Scrawlink/scrawlink-extension@latest/scripts/hydra-extension/hydra-scrawlink.js\")",
+        "examples": [
+          "https://hydra.ojack.xyz/?code=JTJGJTJGJTIwbGljZW5zZWQlMjB3aXRoJTIwQ0MlMjBCWS1OQy1TQSUyMDQuMCUyMGh0dHBzJTNBJTJGJTJGY3JlYXRpdmVjb21tb25zLm9yZyUyRmxpY2Vuc2VzJTJGYnktbmMtc2ElMkY0LjAlMkYlMEElMkYlMkYlMjBmbG9hdGluZyUyMHNxdWFyZXMlMEElMkYlMkYlMjBieSUyMFRBQ0hBfiUwQWF3YWl0JTIwbG9hZFNjcmlwdCglMjJodHRwcyUzQSUyRiUyRmNkbi5qc2RlbGl2ci5uZXQlMkZnaCUyRlNjcmF3bGluayUyRnNjcmF3bGluay1leHRlbnNpb24lNDBsYXRlc3QlMkZzY3JpcHRzJTJGaHlkcmEtZXh0ZW5zaW9uJTJGaHlkcmEtc2NyYXdsaW5rLmpzJTIyKSUwQSUwQSUyRiUyRmNoYW5nZSUyMHRoZSUyMGNvZGUlMjB0byUyMGdldCUyMHRoZSUyMFFSJTIwb2YlMjBjdXJyZW50JTIwdmlzdWFscyUwQXNoYXBlKDQlMkMuMjEpLnNjcm9sbCglNUIuMSUyQyUyMC4wMyU1RC4lMjBzbW9vdGglMjAoKSUyQyUyMCU1QjIlMkMuMTQlMkMuMSU1RC5mYXN0KC4zKS5zbW9vdGgoKSkuYmxlbmQoc3JjKG8wKS5zY2FsZSguNCkpLm91dChvMCklMEE%3D"
+        ]
     }
 ]
