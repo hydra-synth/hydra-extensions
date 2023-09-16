@@ -202,5 +202,17 @@
         "examples": [
           "https://hydra.ojack.xyz/?code=JTJGJTJGJTIwbGljZW5zZWQlMjB3aXRoJTIwQ0MlMjBCWS1OQy1TQSUyMDQuMCUyMGh0dHBzJTNBJTJGJTJGY3JlYXRpdmVjb21tb25zLm9yZyUyRmxpY2Vuc2VzJTJGYnktbmMtc2ElMkY0LjAlMkYlMEElMkYlMkYlMjBmbG9hdGluZyUyMHNxdWFyZXMlMEElMkYlMkYlMjBieSUyMFRBQ0hBfiUwQWF3YWl0JTIwbG9hZFNjcmlwdCglMjJodHRwcyUzQSUyRiUyRmNkbi5qc2RlbGl2ci5uZXQlMkZnaCUyRlNjcmF3bGluayUyRnNjcmF3bGluay1leHRlbnNpb24lNDBsYXRlc3QlMkZzY3JpcHRzJTJGaHlkcmEtZXh0ZW5zaW9uJTJGaHlkcmEtc2NyYXdsaW5rLmpzJTIyKSUwQSUwQSUyRiUyRmNoYW5nZSUyMHRoZSUyMGNvZGUlMjB0byUyMGdldCUyMHRoZSUyMFFSJTIwb2YlMjBjdXJyZW50JTIwdmlzdWFscyUwQXNoYXBlKDQlMkMuMjEpLnNjcm9sbCglNUIuMSUyQyUyMC4wMyU1RC4lMjBzbW9vdGglMjAoKSUyQyUyMCU1QjIlMkMuMTQlMkMuMSU1RC5mYXN0KC4zKS5zbW9vdGgoKSkuYmxlbmQoc3JjKG8wKS5zY2FsZSguNCkpLm91dChvMCklMEE%3D"
         ]
+    },
+    {
+      "name": "naoto test",
+      "description": "test",
+      "www": "https://github.com/micuat",
+      "documentation": "https://github.com/micuat"
+      "author": "naoto",
+      "thumbnail": "naoto.png",
+      "load":"",
+        "examples": [
+          ""
+        ]
     }
 ]
