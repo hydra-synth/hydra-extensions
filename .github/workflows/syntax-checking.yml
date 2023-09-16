@@ -1,0 +1,19 @@
+name: ✅ json-syntax-check
+
+on:
+  pull_request:
+    paths:
+      - '*.json'
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: json-syntax-check
+        uses: limitusus/json-syntax-check@v2
+        with:
+          pattern: "\\.json$"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
