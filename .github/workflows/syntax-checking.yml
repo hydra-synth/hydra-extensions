@@ -1,22 +1,19 @@
-name: Syntax-checking
+name: ✅ json-syntax-check
 
 on:
-  push:
-    branches-ignore: [main]
   pull_request:
-    branches: [main]
+    paths:
+      - '*.json'
+  workflow_dispatch:
 
 jobs:
-  build:
+  test:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Code
-        uses: actions/checkout@v2
-
-      - name: jsonlint
-        uses: docker://github/super-linter:v3
+      - uses: actions/checkout@v3
+      - name: json-syntax-check
+        uses: limitusus/json-syntax-check@v2
+        with:
+          pattern: "\\.json$"
         env:
-          VALIDATE_ALL_CODEBASE: false
-          VALIDATE_JSON: true
-          DEFAULT_BRANCH: main
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
