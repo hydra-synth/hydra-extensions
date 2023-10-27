@@ -211,7 +211,7 @@
       "documentation": "https://github.com/atfornes/noise-room",
       "author": "Ámbar Tenorio",
       "thumbnail": "noise-room.png",
-      "load":"await loadScript(\"https://atfornes.github.io/noise-room/addIframe.js\")"
+      "load":"await loadScript(\"https://atfornes.github.io/noise-room/addIframe.js\")",
         "examples": [
           "https://hydra.ojack.xyz/?code=JTJGJTJGJTIwTm9pc2UlMjBSb29tJTBBJTJGJTJGJTIwQ0MtQnklMEElMkYlMkYlMjAlNDBCeSUyMFRBQ0hBfiUwQSUwQWF3YWl0JTIwbG9hZFNjcmlwdCglMjJodHRwcyUzQSUyRiUyRmF0Zm9ybmVzLmdpdGh1Yi5pbyUyRm5vaXNlLXJvb20lMkZhZGRJZnJhbWUuanMlMjIpJTBBJTBBJTJGJTJGJTIwVXNlJTIwQ1RSTCUyMCUyQiUyME1vdXNlJTIwcG9zaXRpb24lMjBvdmVyJTIwYXVkaW8lMjBlZmZlY3RzJTIwdG8lMjBjb250cm9sJTNBJTBBJTJGJTJGJTIwRWZmZWN0JTIwTWl4JTNBJTIweCUyMGF4aXMlMEElMkYlMkYlMjBSZXNvbmFuY2UlM0ElMjB5JTIwYXhpcyUzQSUwQSUwQWEuc2V0U21vb3RoKC42OCklMEFzaGFwZSgzKSUwQSUwOS5jb2xvciglNUItMS4xJTJDJTIwMSU1RC5zbW9vdGgoKSUyQyUyMCU1Qi4zJTJDMCU1RC5zbW9vdGgoKS5mYXN0KC40KSUyQyUyMC41KSUwQSUwOS5zY2FsZSgoKSUyMCUzRCUzRSUyMDAuMyUyMCUyQiUyMGEuZmZ0JTVCMCU1RCUyMColMjAzKS5vdXQobzApJTBBJTBBc3JjKG8wKS5tb2R1bGF0ZShzcmMobzApLmRpZmYoc3JjKG8wKS5yZXBlYXQoJTVCLTElMkMzJTVELnNtb290aCgpKSkpJTBBJTA5Lm91dChvMSklMEElMEFzcmMobzEpLmRpZmYoc3JjKG8xKS5zY2FsZSguOSkpLm91dChvMiklMEElMEFyZW5kZXIobzIpJTBBJTBB"
         ]
