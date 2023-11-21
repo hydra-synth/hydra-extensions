@@ -71,7 +71,7 @@
         "name": "hydra-arithmetics",
         "description": "Adds many functions related to visual arithmetics.",
         "documentation":  "https://github.com/ritchse/hyper-hydra/blob/main/doc/hydra-arithmetics.md",
-        "author": "ritchse",
+        "author": "geikha",
         "thumbnail": "ritchse-hydra-arithmetics.png",
         "load": "await loadScript(\"https://hyper-hydra.glitch.me/hydra-arithmetics.js\")",
         "examples": [
@@ -82,7 +82,7 @@
         "name": "hydra-blend",
         "description": "Adds many common blending modes to hydra, such as darken, screen, colorBurn.",
         "documentation": "https://github.com/ritchse/hyper-hydra/blob/main/doc/hydra-blend.md",
-        "author": "ritchse",
+        "author": "geikha",
         "thumbnail": "ritchse-hydra-blend.png",
         "load": "await loadScript(\"https://hyper-hydra.glitch.me/hydra-blend.js\")",
         "examples": [
@@ -93,7 +93,7 @@
         "name": "hydra-fractals",
         "description": "Adds mirroring and other functions that can be useful for making fractals. see also: hydra-wrap",
         "documentation": "https://github.com/ritchse/hyper-hydra/blob/main/doc/hydra-fractals.md",
-        "author": "ritchse",
+        "author": "geikha",
         "thumbnail": "ritchse-hydra-fractals.png",
         "load": "await loadScript(\"https://hyper-hydra.glitch.me/hydra-fractals.js\")",
         "examples": [
@@ -104,7 +104,7 @@
         "name": "hydra-gif",
         "description": "Let's you load .gif files into Hydra.",
         "documentation": "https://github.com/ritchse/hyper-hydra/blob/main/doc/hydra-gif.md",
-        "author": "ritchse",
+        "author": "geikha",
         "thumbnail": "ritchse-hydra-gif.png",
         "load": "await loadScript(\"https://hyper-hydra.glitch.me/hydra-gif.js\")",
         "examples": [
@@ -115,7 +115,7 @@
         "name": "hydra-outputs",
         "description": "Change settings of framebuffers used by Hydra's outputs. The most common use case is setting framebuffers to use linear interpolation instead of the default, nearest neighbour.",
         "documentation": "https://github.com/ritchse/hyper-hydra/blob/main/doc/hydra-outputs.md",
-        "author": "ritchse",
+        "author": "geikha",
         "thumbnail": "ritchse-hydra-outputs.png",
         "load": "await loadScript(\"https://hyper-hydra.glitch.me/hydra-outputs.js\")",
         "examples": [
@@ -126,7 +126,7 @@
         "name": "hydra-text",
         "description": "Configurable canvas text generator to use as a hydra source.",
         "documentation": "https://github.com/ritchse/hyper-hydra/blob/main/doc/hydra-text.md",
-        "author": "ritchse",
+        "author": "geikha",
         "thumbnail": "ritchse-hydra-text.png",
         "load": "await loadScript(\"https://hyper-hydra.glitch.me/hydra-text.js\")",
         "examples": [
@@ -137,7 +137,7 @@
         "name": "hydra-wrap",
         "description": "Change how Hydra wraps textures, and control the wrapping of source functions such as osc() and noise().",
         "documentation": "https://github.com/ritchse/hyper-hydra/blob/main/doc/hydra-wrap.md",
-        "author": "ritchse",
+        "author": "geikha",
         "thumbnail": "ritchse-hydra-wrap.png",
         "load": "await loadScript(\"https://hyper-hydra.glitch.me/hydra-wrap.js\")",
         "examples": [
