@@ -162,7 +162,7 @@
         "documentation": "https://shaderpark.com/",
         "author": "emptyflash, Torin Blankensmith and Peter Whidden",
         "thumbnail": "shader-park.png",
-        "load": "const { sculptToHydraRenderer } = await import(\"https://livecode.emptyfla.sh/hydra/all.js\")",
+        "load": "const { sculptToHydraRenderer } = await import(\"https://unpkg.com/shader-park-core/dist/shader-park-core.esm.js\")",
         "examples": [
            "https://hydra.ojack.xyz/?code=JTJGJTJGJTIwbGljZW5zZWQlMjB3aXRoJTIwQ0MlMjBCWS1OQy1TQSUyMDQuMCUyMGh0dHBzJTNBJTJGJTJGY3JlYXRpdmVjb21tb25zLm9yZyUyRmxpY2Vuc2VzJTJGYnktbmMtc2ElMkY0LjAlMkYlMEFjb25zdCUyMCU3QiUyMHNjdWxwdFRvSHlkcmFSZW5kZXJlciUyMCU3RCUyMCUzRCUyMGF3YWl0JTIwaW1wb3J0KCUyMmh0dHBzJTNBJTJGJTJGbGl2ZWNvZGUuZW1wdHlmbGEuc2glMkZoeWRyYSUyRmFsbC5qcyUyMiklMEElMEFzY3VscHRUb0h5ZHJhUmVuZGVyZXIoKCklMjAlM0QlM0UlMjAlN0IlMEElMDklMDlyb3RhdGVYKHRpbWUlMjAlMkYlMjA1KSUwQSUwOSUwOXJvdGF0ZVoodGltZSUyMCUyRiUyMDMpJTBBJTA5JTA5ZGlzcGxhY2Uoc2luKHRpbWUpJTJDJTIwMSUyQyUyMDApJTBBJTA5JTA5bWlycm9yTigzJTJDJTIwMyklMEElMDklMDl0b3J1cygwLjglMkMlMjAwLjM4JTIwJTJCJTIwMC4xJTIwKiUyMHNpbih0aW1lKSklMEElMDklN0QpJTBBJTA5Lm91dChvMCklMEElMEFyZW5kZXIobzApJTBB"
         ]
