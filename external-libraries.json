@@ -37,5 +37,29 @@
         "examples": [
            "https://hydra.ojack.xyz/?code=YXdhaXQlMjBsb2FkU2NyaXB0KCUyMmh0dHBzJTNBJTJGJTJGdGhyZWVqcy5vcmclMkZidWlsZCUyRnRocmVlLmpzJTIyKSUwQSUwQXNjZW5lJTIwJTNEJTIwbmV3JTIwVEhSRUUuU2NlbmUoKSUwQWNhbWVyYSUyMCUzRCUyMG5ldyUyMFRIUkVFLlBlcnNwZWN0aXZlQ2FtZXJhKDc1JTJDJTIwd2luZG93LmlubmVyV2lkdGglMjAlMkYlMjB3aW5kb3cuaW5uZXJIZWlnaHQlMkMlMjAwLjElMkMlMjAxMDAwKSUwQSUwQXJlbmRlcmVyJTIwJTNEJTIwbmV3JTIwVEhSRUUuV2ViR0xSZW5kZXJlcigpJTBBcmVuZGVyZXIuc2V0U2l6ZSh3aWR0aCUyQyUyMGhlaWdodCklMEFnZW9tZXRyeSUyMCUzRCUyMG5ldyUyMFRIUkVFLkJveEdlb21ldHJ5KCklMEFtYXRlcmlhbCUyMCUzRCUyMG5ldyUyMFRIUkVFLk1lc2hCYXNpY01hdGVyaWFsKCU3QmNvbG9yJTNBJTIwMHgwMGZmMDAlN0QpJTBBY3ViZSUyMCUzRCUyMG5ldyUyMFRIUkVFLk1lc2goZ2VvbWV0cnklMkMlMjBtYXRlcmlhbCklM0IlMEFzY2VuZS5hZGQoY3ViZSklMEFjYW1lcmEucG9zaXRpb24ueiUyMCUzRCUyMDEuNSUwQSUwQSUyRiUyRiUyMCd1cGRhdGUnJTIwaXMlMjBhJTIwcmVzZXJ2ZWQlMjBmdW5jdGlvbiUyMHRoYXQlMjB3aWxsJTIwYmUlMjBydW4lMjBldmVyeSUyMHRpbWUlMjB0aGUlMjBtYWluJTIwaHlkcmElMjByZW5kZXJpbmclMjBjb250ZXh0JTIwaXMlMjB1cGRhdGVkJTBBdXBkYXRlJTIwJTNEJTIwKCklMjAlM0QlM0UlMjAlN0IlMEElMjAlMjBjdWJlLnJvdGF0aW9uLnglMjAlMkIlM0QlMjAwLjAxJTNCJTBBJTIwJTIwY3ViZS5yb3RhdGlvbi55JTIwJTJCJTNEJTIwMC4wMSUzQiUwQSUyMCUyMHJlbmRlcmVyLnJlbmRlciglMjBzY2VuZSUyQyUyMGNhbWVyYSUyMCklM0IlMEElN0QlMEElMEFzMC5pbml0KCU3QiUyMHNyYyUzQSUyMHJlbmRlcmVyLmRvbUVsZW1lbnQlMjAlN0QpJTBBJTBBc3JjKHMwKS5yZXBlYXQoKS5vdXQoKSUwQSUwQQ%3D%3D"
         ]
+    },
+    {
+        "name": "bitfolly",
+        "description": "Generate bitfield patterns in hydra with bitfolly",
+        "documentation": "https://github.com/emptyflash/bitfolly/blob/main/README.md",
+        "www": "https://emptyfla.sh/bitfolly",
+        "author": "emptyflash",
+        "thumbnail": "emptyflash-bitfolly.png",
+        "load": "await import(\"https://emptyfla.sh/bitfolly/bundle-global.js\")\nwindow.bitfolly = window.bitfolly || new Bitfolly(() => a.fft)\ns0.init({\nsrc: bitfolly.canvas\n})",
+        "examples": [
+            "https://hydra.ojack.xyz/?code=YXdhaXQlMjBpbXBvcnQoJTIyaHR0cHMlM0ElMkYlMkZlbXB0eWZsYS5zaCUyRmJpdGZvbGx5JTJGYnVuZGxlLWdsb2JhbC5qcyUyMiklMEF3aW5kb3cuYml0Zm9sbHklMjAlM0QlMjB3aW5kb3cuYml0Zm9sbHklMjAlN0MlN0MlMjBuZXclMjBCaXRmb2xseSgoKSUyMCUzRCUzRSUyMGEuZmZ0KSUwQWJpdGZvbGx5LnVwZGF0ZSglMjJNYXRoLnRhbih4JTdDeSU1RXQlMkYzMCkqMTAlMjIpJTBBczAuaW5pdCglN0IlMEElMjAlMjAlMjAlMjBzcmMlM0ElMjBiaXRmb2xseS5jYW52YXMlMEElN0QpJTBBc3JjKHMwKSUwQSUwOS5kaWZmKHNyYyhvMCkuc2NhbGUoLjk5NSkpJTBBJTIwJTIwJTIwJTIwLm91dCgp"
+        ]
+    },
+    {
+        "name": "bl4st",
+        "description": "Fractal flam3s in the browser with bl4st and hydra",
+        "documentation": "https://github.com/emptyflash/bl4st/blob/main/README.md",
+        "www": "https://emptyfla.sh/bl4st",
+        "author": "emptyflash",
+        "thumbnail": "emptyflash-bl4st.png",
+        "load": "await import(\"https://emptyfla.sh/bl4st/bundle-global.js\")\nflameEngine.start()\ns0.init({\nsrc: flameEngine.canvas\n})",
+        "examples": [
+            "https://hydra.ojack.xyz/?code=YXdhaXQlMjBpbXBvcnQoJTIyaHR0cHMlM0ElMkYlMkZlbXB0eWZsYS5zaCUyRmJsNHN0JTJGYnVuZGxlLWdsb2JhbC5qcyUyMiklMEElMEFmbGFtZUVuZ2luZS5zZXRDb25maWcoJTBBJTA5ZmxhbWUoKSUwQSUwOS5jb2xvcmZ1bCguNyklMEElMDkubWFwRXhwb3N1cmUoMiklMEElMDkuYWRkVHJhbnNmb3JtKCUwQSUwOSUwOXRyYW5zZm9ybSgpJTBBJTA5JTA5Lmh5cGVyYm9saWMoKSUwQSUwOSUwOS5yb3RhdGVYKCklMEElMDklMDkuYnVpbGQoKSUwQSUwOSklMEElMDkuYWRkVHJhbnNmb3JtKCUwQSUwOSUwOXRyYW5zZm9ybSgpJTBBJTA5JTA5LmZpc2hleWUoKSUwQSUwOSUwOS5yb3RhdGVZKCklMEElMDklMDkuYnVpbGQoKSUwQSUwOSklMEElMDkuYWRkVHJhbnNmb3JtKCUwQSUwOSUwOXRyYW5zZm9ybSgpJTBBJTA5JTA5LmZpc2hleWUoKSUwQSUwOSUwOS5yb3RhdGVPKCklMEElMDklMDkuYnVpbGQoKSUwQSUwOSklMEEpJTBBJTBBZmxhbWVFbmdpbmUuc3RhcnQoKSUwQSUwQXMwLmluaXQoJTdCJTBBJTA5c3JjJTNBJTIwZmxhbWVFbmdpbmUuY2FudmFzJTBBJTdEKSUwQSUwQXNyYyhvMCklMEElMDkubGF5ZXIoJTBBJTA5JTA5c3JjKHMwKSUwQSUwOSUwOS5sdW1hKCkpJTBBJTA5LnNjYWxlKDEuMDAyKSUwQSUwOS5tb2R1bGF0ZVJvdGF0ZShub2lzZSgxKSUyQyUyMC4wMSklMEElMDkub3V0KCk%3D"
+        ]
     }
 ]
