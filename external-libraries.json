@@ -33,7 +33,7 @@
         "www": "",
         "author": "mr.doob",
         "thumbnail": "three-js.png",
-        "load": "await loadScript(\"https://threejs.org/build/three.js\")",
+        "load": "await loadScript(\"https://unpkg.com/three@0.97.0/build/three.js")",
         "examples": [
            "https://hydra.ojack.xyz/?code=YXdhaXQlMjBsb2FkU2NyaXB0KCUyMmh0dHBzJTNBJTJGJTJGdGhyZWVqcy5vcmclMkZidWlsZCUyRnRocmVlLmpzJTIyKSUwQSUwQXNjZW5lJTIwJTNEJTIwbmV3JTIwVEhSRUUuU2NlbmUoKSUwQWNhbWVyYSUyMCUzRCUyMG5ldyUyMFRIUkVFLlBlcnNwZWN0aXZlQ2FtZXJhKDc1JTJDJTIwd2luZG93LmlubmVyV2lkdGglMjAlMkYlMjB3aW5kb3cuaW5uZXJIZWlnaHQlMkMlMjAwLjElMkMlMjAxMDAwKSUwQSUwQXJlbmRlcmVyJTIwJTNEJTIwbmV3JTIwVEhSRUUuV2ViR0xSZW5kZXJlcigpJTBBcmVuZGVyZXIuc2V0U2l6ZSh3aWR0aCUyQyUyMGhlaWdodCklMEFnZW9tZXRyeSUyMCUzRCUyMG5ldyUyMFRIUkVFLkJveEdlb21ldHJ5KCklMEFtYXRlcmlhbCUyMCUzRCUyMG5ldyUyMFRIUkVFLk1lc2hCYXNpY01hdGVyaWFsKCU3QmNvbG9yJTNBJTIwMHgwMGZmMDAlN0QpJTBBY3ViZSUyMCUzRCUyMG5ldyUyMFRIUkVFLk1lc2goZ2VvbWV0cnklMkMlMjBtYXRlcmlhbCklM0IlMEFzY2VuZS5hZGQoY3ViZSklMEFjYW1lcmEucG9zaXRpb24ueiUyMCUzRCUyMDEuNSUwQSUwQSUyRiUyRiUyMCd1cGRhdGUnJTIwaXMlMjBhJTIwcmVzZXJ2ZWQlMjBmdW5jdGlvbiUyMHRoYXQlMjB3aWxsJTIwYmUlMjBydW4lMjBldmVyeSUyMHRpbWUlMjB0aGUlMjBtYWluJTIwaHlkcmElMjByZW5kZXJpbmclMjBjb250ZXh0JTIwaXMlMjB1cGRhdGVkJTBBdXBkYXRlJTIwJTNEJTIwKCklMjAlM0QlM0UlMjAlN0IlMEElMjAlMjBjdWJlLnJvdGF0aW9uLnglMjAlMkIlM0QlMjAwLjAxJTNCJTBBJTIwJTIwY3ViZS5yb3RhdGlvbi55JTIwJTJCJTNEJTIwMC4wMSUzQiUwQSUyMCUyMHJlbmRlcmVyLnJlbmRlciglMjBzY2VuZSUyQyUyMGNhbWVyYSUyMCklM0IlMEElN0QlMEElMEFzMC5pbml0KCU3QiUyMHNyYyUzQSUyMHJlbmRlcmVyLmRvbUVsZW1lbnQlMjAlN0QpJTBBJTBBc3JjKHMwKS5yZXBlYXQoKS5vdXQoKSUwQSUwQQ%3D%3D"
         ]
