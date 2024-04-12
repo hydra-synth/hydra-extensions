@@ -227,5 +227,16 @@
       "examples": [
         "https://hydra.ojack.xyz/?code=YXdhaXQlMjBsb2FkU2NyaXB0KCUyMmh0dHBzJTNBJTJGJTJGY2RuLmpzZGVsaXZyLm5ldCUyRm5wbSUyRmh5ZHJhLXN1cGVyZGlydCU0MGxhdGVzdCUyRmluZGV4LmpzJTIyKSUwQSUwQXJtc0Nvbm5lY3QoKSUwQSUwQXNvbGlkKCgpJTIwJTNEJTNFJTIwcm1zKDApKS5vdXQoKSUwQSUwQQ%3D%3D"
       ]
+    },
+     {
+        "name": "Total Serialism",
+        "description": "A Toolbox full of Algorithmic Composition methods",
+        "documentation": "https://tmhglnd.github.io/total-serialism/",
+        "author": "Timo Hoogland",
+        "thumbnail": "totalSerialism.png",
+        "load": "await loadScript(\"https://unpkg.com/total-serialism/build/ts.es5.min.js\")",
+        "examples": [
+            "https://hydra.ojack.xyz/?code=JTJGJTJGVG90YWwlMjBTZXJpYWxpc20lMjBieSUyMFRpbW8lMjBIb29nbGFuZCUyMC0lMjBFeGFtcGxlJTIwYnklMjBGbG9yJTIwZGUlMjBGdWVnbyUwQSUwQWF3YWl0JTIwbG9hZFNjcmlwdCglMjJodHRwcyUzQSUyRiUyRnVucGtnLmNvbSUyRnRvdGFsLXNlcmlhbGlzbSUyRmJ1aWxkJTJGdHMuZXM1Lm1pbi5qcyUyMiklMEElMEFjb25zdCUyMFJhbmQlMjAlM0QlMjBUb3RhbFNlcmlhbGlzbS5TdG9jaGFzdGljJTNCJTBBY29uc3QlMjByJTIwJTNEJTIwUmFuZC5zaHVmZmxlKCU1QjElMkMwLjUlMkMwLjYlMkMuMiUyQy0xJTVEKS5lYXNlKCdlYXNlSW5PdXRRdWFkJyklM0IlMEFjb25zdCUyMGclMjAlM0QlMjBSYW5kLnNodWZmbGUoJTVCMSUyQzAuNSUyQy0wLjYlMkMwLjglMkMtMSU1RCkuZWFzZSgnZWFzZUluT3V0UXVhZCcpJTNCJTBBY29uc3QlMjBiJTIwJTNEJTIwUmFuZC5zaHVmZmxlKCU1QjElMkMwLjUlMkMwLjYlMkMyJTJDLTElNUQpLmVhc2UoJ2Vhc2VJbk91dFF1YWQnKSUzQiUwQSUwQW9zYygxMCUyQzAuMSUyQzApLmNvbG9yKHIlMkNnJTJDYikubXVsdChub2lzZSgzKSklMEEuYWRkKHNyYyhvMCkuc2Nyb2xsWCgwLjEpJTJDMC44KSUwQS5odWUoMC4wMSkub3V0KCk%3D"
+        ]
     }
 ]
