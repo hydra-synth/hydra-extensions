@@ -228,5 +228,16 @@
       "examples": [
         "https://hydra.ojack.xyz/?code=YXdhaXQlMjBsb2FkU2NyaXB0KCUyMmh0dHBzJTNBJTJGJTJGY2RuLmpzZGVsaXZyLm5ldCUyRm5wbSUyRmh5ZHJhLXN1cGVyZGlydCU0MGxhdGVzdCUyRmluZGV4LmpzJTIyKSUwQSUwQXJtc0Nvbm5lY3QoKSUwQSUwQXNvbGlkKCgpJTIwJTNEJTNFJTIwcm1zKDApKS5vdXQoKSUwQSUwQQ%3D%3D"
       ]
-    }
+    },
+     {
+        "name": "Hydra-FCS",
+        "description": "Algebraic Geometry Inspired Visuals",
+        "documentation": "https://github.com/ymaltsman/Hydra-FCS/tree/main",
+        "author": "FriendlySpinach",
+        "thumbnail": "FCS.png",
+        "load": "await loadScript("https://cdn.statically.io/gh/ymaltsman/Hydra-FCS/3449358/HydraFCS.js")",
+        "examples": [
+            "https://hydra.ojack.xyz/?code=YXdhaXQlMjBsb2FkU2NyaXB0KCUyMmh0dHBzJTNBJTJGJTJGY2RuLnN0YXRpY2FsbHkuaW8lMkZnaCUyRnltYWx0c21hbiUyRkh5ZHJhLUZDUyUyRjkwNTkzMTElMkZIeWRyYUZDUy5qcyUyMiklMEElMEFpQ2lyY2xlKCkucENpcmNsZShpQ2lyY2xlKCkucENpcmNsZShpQ2lyY2xlKCkubXVsdCglMjBvc2MoKSUyQyUyMGFtb3VudCUyMCUzRCUyMDElMjApKSkua2FsZWlkKDMpLm91dCgpJTBB"
+        ]
+    },
 ]
