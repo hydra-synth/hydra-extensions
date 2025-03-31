@@ -64,12 +64,12 @@
      {
         "name": "Total Serialism",
         "description": "A Toolbox full of Algorithmic Composition methods",
-        "documentation": "https://tmhglnd.github.io/total-serialism/",
+        "documentation": "https://tmhglnd.github.io/total-serialism",
         "author": "Timo Hoogland",
         "thumbnail": "totalSerialism.png",
         "load": "await loadScript(\"https://unpkg.com/total-serialism/build/ts.es5.min.js\")",
         "examples": [
-            "https://hydra.ojack.xyz/?code=JTJGJTJGVG90YWwlMjBTZXJpYWxpc20lMjBieSUyMFRpbW8lMjBIb29nbGFuZCUyMC0lMjBFeGFtcGxlJTIwYnklMjBGbG9yJTIwZGUlMjBGdWVnbyUwQSUwQWF3YWl0JTIwbG9hZFNjcmlwdCglMjJodHRwcyUzQSUyRiUyRnVucGtnLmNvbSUyRnRvdGFsLXNlcmlhbGlzbSUyRmJ1aWxkJTJGdHMuZXM1Lm1pbi5qcyUyMiklMEElMEFjb25zdCUyMFJhbmQlMjAlM0QlMjBUb3RhbFNlcmlhbGlzbS5TdG9jaGFzdGljJTNCJTBBY29uc3QlMjByJTIwJTNEJTIwUmFuZC5zaHVmZmxlKCU1QjElMkMwLjUlMkMwLjYlMkMuMiUyQy0xJTVEKS5lYXNlKCdlYXNlSW5PdXRRdWFkJyklM0IlMEFjb25zdCUyMGclMjAlM0QlMjBSYW5kLnNodWZmbGUoJTVCMSUyQzAuNSUyQy0wLjYlMkMwLjglMkMtMSU1RCkuZWFzZSgnZWFzZUluT3V0UXVhZCcpJTNCJTBBY29uc3QlMjBiJTIwJTNEJTIwUmFuZC5zaHVmZmxlKCU1QjElMkMwLjUlMkMwLjYlMkMyJTJDLTElNUQpLmVhc2UoJ2Vhc2VJbk91dFF1YWQnKSUzQiUwQSUwQW9zYygxMCUyQzAuMSUyQzApLmNvbG9yKHIlMkNnJTJDYikubXVsdChub2lzZSgzKSklMEEuYWRkKHNyYyhvMCkuc2Nyb2xsWCgwLjEpJTJDMC44KSUwQS5odWUoMC4wMSkub3V0KCk%3D"
+            "https://hydra.ojack.xyz/?code=JTBBJTJGJTJGJTIwVG90YWwlMjBTZXJpYWxpc20lMjBieSUyMFRpbW8lMjBIb29nbGFuZCUyMC0lMjBFeGFtcGxlJTIwYnklMjBGbG9yJTIwZGUlMjBGdWVnbyUwQSUwQWF3YWl0JTIwbG9hZFNjcmlwdCglMjJodHRwcyUzQSUyRiUyRmNkbi5qc2RlbGl2ci5uZXQlMkZucG0lMkZ0b3RhbC1zZXJpYWxpc20lNDBsYXRlc3QlMkZidWlsZCUyRnRzLmVzNS5taW4uanMlMjIpJTBBJTJGJTJGJTIwdmlzaXQlMjBodHRwcyUzQSUyRiUyRnRtaGdsbmQuZ2l0aHViLmlvJTJGdG90YWwtc2VyaWFsaXNtJTIwZm9yJTIwZG9jdW1lbnRhdGlvbiUyMGFuZCUyMGV4YW1wbGVzJTBBJTBBY29uc3QlMjBSYW5kJTIwJTNEJTIwVG90YWxTZXJpYWxpc20uU3RvY2hhc3RpYyUzQiUwQWNvbnN0JTIwciUyMCUzRCUyMFJhbmQuc2h1ZmZsZSglNUIxJTJDMC41JTJDMC42JTJDLjIlMkMtMSU1RCkuZWFzZSgnZWFzZUluT3V0UXVhZCcpJTNCJTBBY29uc3QlMjBnJTIwJTNEJTIwUmFuZC5zaHVmZmxlKCU1QjElMkMwLjUlMkMtMC42JTJDMC44JTJDLTElNUQpLmVhc2UoJ2Vhc2VJbk91dFF1YWQnKSUzQiUwQWNvbnN0JTIwYiUyMCUzRCUyMFJhbmQuc2h1ZmZsZSglNUIxJTJDMC41JTJDMC42JTJDMiUyQy0xJTVEKS5lYXNlKCdlYXNlSW5PdXRRdWFkJyklM0IlMEElMEFvc2MoMTAlMkMwLjElMkMwKS5jb2xvcihyJTJDZyUyQ2IpLm11bHQobm9pc2UoMykpJTBBLmFkZChzcmMobzApLnNjcm9sbFgoMC4xKSUyQzAuOCklMEEuaHVlKDAuMDEpLm91dCgp"
         ]
     }
 ]
