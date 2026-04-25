@@ -253,5 +253,18 @@
             "https://hydra.ojack.xyz/?code=YXdhaXQlMjBpbXBvcnQoJ2h0dHBzJTNBJTJGJTJGd3d3LmZlbnRvbmlhLmNvbSUyRmh5ZHJhLWV4dGVuc2lvbnMlMkZ2ZXJ0ZXglMkZpbmRleC5qcycpLnRoZW4obSUyMCUzRCUzRSUyMG0uaW5zdGFsbCh3aW5kb3cuaHlkcmFTeW50aCkpJTBBJTBBb3NjKDEwJTJDJTIwMC4xJTJDJTIwMSkuZGlmZnVzZSgwJTJDJTIwMSUyQyUyMDApLm91dChvMCUyQyUyMHNwaGVyZSgpLnBlcnNwZWN0aXZlKDYwKS5yb3RhdGVZKCgpJTIwJTNEJTNFJTIwdGltZSkp",
             "https://hydra.ojack.xyz/?code=YXdhaXQlMjBpbXBvcnQoJ2h0dHBzJTNBJTJGJTJGd3d3LmZlbnRvbmlhLmNvbSUyRmh5ZHJhLWV4dGVuc2lvbnMlMkZ2ZXJ0ZXglMkZpbmRleC5qcycpLnRoZW4obSUyMCUzRCUzRSUyMG0uaW5zdGFsbCh3aW5kb3cuaHlkcmFTeW50aCkpJTBBJTBBb3NjKDEwKS5kaWZmdXNlKDAlMkMlMjAxJTJDJTIwMCkub3V0KG8wJTJDJTIwY3ViZSgwLjEpLmdyaWQoMyUyQyUyMDMlMkMlMjAzJTJDJTIwMC4zKS5wZXJzcGVjdGl2ZSg2MCkucm90YXRlWSgoKSUyMCUzRCUzRSUyMHRpbWUpKQ%3D%3D"
         ]
+    },
+    {
+        "name": "hydra-datamosh",
+        "description": "Apply datamosh effects to sources and outputs using WebCodecs",
+        "www": "https://github.com/emptyflash/hydra-datamosh",
+        "documentation": "https://github.com/emptyflash/hydra-datamosh/blob/main/README.md",
+        "author": "emptyflash",
+        "thumbnail": "moshed_data.png",
+        "load": "const { datamosh } = await import(\"https://emptyfla.sh/hydra-datamosh/datamosh.js\")",
+        "examples": [
+            "https://hydra.ojack.xyz/?code=Y29uc3QlMjAlN0IlMjBkYXRhbW9zaCUyMCU3RCUyMCUzRCUyMGF3YWl0JTIwaW1wb3J0KCUyMmh0dHBzJTNBJTJGJTJGZW1wdHlmbGEuc2glMkZoeWRyYS1kYXRhbW9zaCUyRmRhdGFtb3NoLmpzJTIyKSUwQWF3YWl0JTIwczAuaW5pdFZpZGVvKCdodHRwcyUzQSUyRiUyRmNvbnRlbnQuandwbGF0Zm9ybS5jb20lMkZ2aWRlb3MlMkZONFgxTmtJUi0xaG9uNEJzdS5tcDQnKSUwQWNvbnN0JTIwbmV3U291cmNlJTIwJTNEJTIwYXdhaXQlMjBkYXRhbW9zaChzMCklMEFzcmMobmV3U291cmNlKS5vdXQoKQ%3D%3D",
+            "https://hydra.ojack.xyz/?code=Y29uc3QlMjAlN0IlMjBkYXRhbW9zaCUyMCU3RCUyMCUzRCUyMGF3YWl0JTIwaW1wb3J0KCUyMmh0dHBzJTNBJTJGJTJGZW1wdHlmbGEuc2glMkZoeWRyYS1kYXRhbW9zaCUyRmRhdGFtb3NoLmpzJTIyKSUwQWNvbnN0JTIwbmV3U291cmNlJTIwJTNEJTIwYXdhaXQlMjBkYXRhbW9zaCgoaCklMjAlM0QlM0UlMjBoLm9zYygpLm91dCgpKSUwQXNyYyhuZXdTb3VyY2UpLm91dCgp"
+        ]
     }
 ]
